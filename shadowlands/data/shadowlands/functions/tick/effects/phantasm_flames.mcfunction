@@ -1,0 +1,1 @@
+execute as @e[name="Phantasm"] at @s run particle minecraft:soul_fire_flame ~ ~0.7 ~ .5 .7 .5 .01 1

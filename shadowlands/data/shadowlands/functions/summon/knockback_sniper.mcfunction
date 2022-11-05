@@ -1,0 +1,2 @@
+function shadowlands:summon/effect
+summon minecraft:skeleton ~ ~ ~ {HandItems:[{id:bow,tag:{Enchantments:[{id:punch,lvl:10}],AttributeModifiers:[{AttributeName:"generic.attack_speed",Amount:1000,Operation:0,UUID:[I;-120713,18118,213936,-36236],Name:"generic.attack_speed"}]},Count:1}],Attributes:[{Name:"generic.movement_speed",Base:0.0F},{"Name": "generic.follow_range","Base": 500.0f},{"Name": "generic.knockback_resistance", "Base": 1.0f}],HandDropChances:[0.0f,0.0f],"ArmorDropChances":[0.0f,0.0f,0.0f,0.0f]}

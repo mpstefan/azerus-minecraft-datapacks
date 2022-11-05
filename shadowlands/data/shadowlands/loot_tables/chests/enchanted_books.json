@@ -1,0 +1,50 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:enchanted_book",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{StoredEnchantments:[{id:protection,lvl:4}]}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:enchanted_book",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{StoredEnchantments:[{id:protection,lvl:4}]}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:enchanted_book",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{StoredEnchantments:[{id:smite,lvl:5}]}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:enchanted_book",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{StoredEnchantments:[{id:sharpness,lvl:5}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

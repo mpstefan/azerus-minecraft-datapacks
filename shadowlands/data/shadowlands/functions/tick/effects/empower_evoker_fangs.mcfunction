@@ -1,0 +1,3 @@
+execute as @e[name="Evoker Fangs",nbt={"Warmup":-10},x=4300,y=0,z=1290,dx=213,dy=54,dz=304] at @s run particle minecraft:soul_fire_flame ~ ~ ~ .3 2 .3 .01 400
+execute as @e[name="Evoker Fangs",nbt={"Warmup":-10},x=4300,y=0,z=1290,dx=213,dy=54,dz=304] at @s run tp @a[distance=..1] ~ ~1 ~
+execute as @e[name="Evoker Fangs",nbt={"Warmup":-10},x=4300,y=0,z=1290,dx=213,dy=54,dz=304] at @s run effect give @a[distance=..1] minecraft:wither 5 1

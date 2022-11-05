@@ -1,0 +1,1 @@
+execute if blocks 4483 4 1515 4485 6 1515 4483 10 1518 all run fill 4483 4 1515 4485 6 1515 air

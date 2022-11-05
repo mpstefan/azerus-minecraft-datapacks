@@ -1,0 +1,1 @@
+execute if entity @a[x=4393,y=12.00,z=1435.00,dx=15,dy=0,dz=27] run function shadowlands:tick/events/activate_death_diviner

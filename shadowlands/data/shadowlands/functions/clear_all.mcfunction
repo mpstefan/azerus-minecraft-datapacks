@@ -1,0 +1,2 @@
+function shadowlands:clear_shadow_mobs
+function shadowlands:clear_shadow_tags

@@ -1,0 +1,1 @@
+execute if entity @a[x=4300,y=0,z=1290,dx=213,dy=54,dz=304] run function shadowlands:tick/4_shadow_temple_tick

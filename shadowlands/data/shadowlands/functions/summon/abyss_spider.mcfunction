@@ -1,0 +1,2 @@
+particle minecraft:smoke ~ ~ ~ 1 1 1 .001 500
+summon spider ~ ~ ~ { "id": "spider", "CustomName": "\"Abyss Spider\"", "PersistenceRequired": 1b, "NoGravity": 1b, "OnGround": 1b, "Health": 80d, "Attributes": [ { "Name": "generic.max_health", "Base": 80.0f }, { "Name": "generic.movement_speed", "Base": 0.1f }, { "Name": "generic.follow_range", "Base": 500.0f }, { "Name": "generic.attack_damage", "Base": 30.0f }, { "Name": "generic.knockback_resistance", "Base": 50.0f } ], "Team": "ShadowTemple", "DeathLootTable": "" }

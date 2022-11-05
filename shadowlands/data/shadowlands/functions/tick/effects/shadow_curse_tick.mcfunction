@@ -1,0 +1,3 @@
+execute if entity @a[x=4249,y=0,z=1393,dx=285,dy=140,dz=236] run function shadowlands:tick/effects/shadow_curse_start
+execute if entity @a[x=4535,y=0,z=1465,dx=70,dy=140,dz=164] run function shadowlands:tick/effects/shadow_curse_start
+execute unless entity @a[x=4249,y=0,z=1393,dx=285,dy=140,dz=236] run execute unless entity @a[x=4535,y=0,z=1465,dx=70,dy=140,dz=164] run function shadowlands:tick/effects/shadow_curse_end

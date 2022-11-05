@@ -1,0 +1,2 @@
+function shadowlands:summon/effect
+summon wither_skeleton ~ ~ ~ { "id": "wither_skeleton", "CustomName": "\"Ebon Hollow\"", "PersistenceRequired": 1, "Health": 60.0f, "Attributes": [ { "Name": "generic.max_health", "Base": 60.0f }, { "Name": "generic.follow_range", "Base": 500.0f }, { "Name": "generic.movement_speed", "Base": 0.2f } ], "ActiveEffects": [ { "Id": 10, "ShowParticles": 0b, "Amplifier": 0, "Duration": 2147483647 } ], "HandItems": [ { "Count": 1, "id": "netherite_axe" }, { "Count": 1, "id": "netherite_sword" } ], "HandDropChances": [ 0.01f, 0.01f ] }

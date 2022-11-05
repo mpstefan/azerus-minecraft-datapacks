@@ -1,0 +1,1 @@
+kill @e[name="Iron Horse Armor",x=4190,y=0,z=1240,dx=439,dy=140,dz=461]

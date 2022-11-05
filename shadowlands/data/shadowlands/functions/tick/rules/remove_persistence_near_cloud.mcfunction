@@ -1,0 +1,2 @@
+data modify entity @e[x=4190,y=140,z=1240,dx=439,dy=10,dz=461,sort=random,limit=1] PersistenceRequired set value 0b
+#teleport @e[name="Nightmare Wyvern",x=4190,y=140,z=1240,dx=439,dy=10,dz=461,sort=random,limit=1] 4387 150 1535

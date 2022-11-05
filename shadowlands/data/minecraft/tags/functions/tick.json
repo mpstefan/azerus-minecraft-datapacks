@@ -1,0 +1,6 @@
+{
+  "values": [
+    "shadowlands:tick/1_init_shadowlands_tick_if_players_present",
+    "shadowlands:tick/effects/shadow_curse_tick"
+  ]
+}

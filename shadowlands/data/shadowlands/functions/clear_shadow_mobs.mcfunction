@@ -1,0 +1,25 @@
+kill @e[name="Plague Archer"]
+kill @e[name="Ebon Warhorse"]
+kill @e[name="Reanimated Knight"]
+kill @e[name="Nightmare Wyvern"]
+kill @e[name="Nightmare Bowman"]
+
+kill @e[name="Ebon Crossbowman"]
+kill @e[name="Abyss Spider"]
+kill @e[name="Iron Spider"]
+kill @e[name="Ebon Reaper"]
+kill @e[name="Ebon Dreadknight"]
+kill @e[name="Phantasm"]
+kill @e[name="Ebon Conjurer"]
+
+kill @e[name="Void Widow"]
+kill @e[name="Spider Lord"]
+kill @e[name="Grand Evoker"]
+kill @e[name="Death Diviner"]
+
+kill @e[name="Shadow Beast"]
+kill @e[name="Risen Soldier"]
+kill @e[name="Burning Skeleton"]
+kill @e[name="Burning Soul"]
+
+kill @e[name="Ebon Hollow"]

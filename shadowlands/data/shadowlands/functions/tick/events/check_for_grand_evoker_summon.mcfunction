@@ -1,0 +1,1 @@
+execute if entity @a[x=4501.00,y=31.00,z=1449.00,distance=..10] run function shadowlands:tick/events/activate_grand_evoker

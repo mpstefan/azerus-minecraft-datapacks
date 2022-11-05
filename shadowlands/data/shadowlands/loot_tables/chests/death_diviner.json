@@ -1,0 +1,127 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData: 1, AzerusSpellID: 1, display:{Name:'[{\"text\":\"Axiom\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[{\"text\":\"Darkness pursues you\",\"italic\":false,\"obfuscated\":true}]']},Enchantments:[{id:bane_of_arthropods,lvl:5},{id:knockback,lvl:2},{id:sharpness,lvl:10},{id:smite,lvl:6},{id:sweeping,lvl:3}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:9,Operation:0,UUID:[I;-120924,12016,204043,-24032],Slot:mainhand,Name:\"generic.attack_damage\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:netherite_sword",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Unbreakable:1,display:{Name:'[{\"text\":\"Killing Edge\",\"italic\":false,\"color\":\"dark_purple\"}]'},Enchantments:[{id:sharpness,lvl:7}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:9,Operation:0,UUID:[I;-120929,13596,123357,-27192],Slot:mainhand,Name:\"generic.attack_damage\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:crossbow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1,display:{Name:'[{\"text\":\"Ebon Repeater\",\"italic\":false,\"color\":\"dark_purple\"}]'},Enchantments:[{id:quick_charge,lvl:4}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:netherite_axe",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1,display:{Name:'[{\"text\":\"Whirlwind Axe\",\"italic\":false,\"color\":\"dark_purple\"}]'},Enchantments:[{id:knockback,lvl:3}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:11,Operation:0,UUID:[I;-203157,9871245,203547,-978501],Slot:mainhand,Name:\"generic.attack_damage\"},{AttributeName:\"generic.attack_speed\",Amount:-3,Operation:0,UUID:[I;-210354,95112,2012498,-6451258],Slot:mainhand,Name:\"generic.attack_speed\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:shield",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1,display:{Name:'[{\"text\":\"Ebon Shield\",\"italic\":false,\"color\":\"dark_purple\"}]'}, \"BlockEntityTag\": { \"Base\": 15, \"Patterns\": [ { \"Pattern\": \"flo\", \"Color\": 9 } ] } }"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1,display:{Name:'[{\"text\":\"Ebon Flame Bow\",\"italic\":false,\"color\":\"dark_purple\"}]'},Enchantments:[{id:flame,lvl:1},{id:power,lvl:6}]}"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 2,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{Id:31,Amplifier:5,Duration:2147483647}],CustomPotionColor:0,\"display\": {Name:'[{\"text\":\"Potion of Black Omen\",\"color\":\"dark_purple\"}]'}}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:enchanted_golden_apple",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:end_portal_frame",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

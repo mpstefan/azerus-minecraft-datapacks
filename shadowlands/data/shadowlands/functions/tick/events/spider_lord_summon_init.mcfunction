@@ -1,0 +1,1 @@
+execute if score boss_health STSpiderLord matches ..200 run execute store result score crossbow_ticks STSpiderLord run scoreboard players get players STStats

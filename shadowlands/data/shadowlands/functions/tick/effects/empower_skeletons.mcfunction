@@ -1,0 +1,4 @@
+#Add Iron Armor
+execute as @e[name="Skeleton",tag=!Empowered,x=4190,y=0,z=1240,dx=439,dy=140,dz=461] run data modify entity @s ArmorItems set value [{id:iron_boots,Count:1},{id:iron_leggings,Count:1},{id:iron_chestplate,Count:1},{id:iron_helmet,Count:1}]
+execute as @e[name="Skeleton",tag=!Empowered,x=4190,y=0,z=1240,dx=439,dy=140,dz=461] run data modify entity @s Attributes set value [        {            "Name": "generic.max_health","Base": 20.0f},{"Name": "generic.follow_range","Base": 500.0f},{"Name": "generic.attack_damage","Base": 8.0f}]
+tag @e[name="Skeleton",tag=!Empowered] add Empowered

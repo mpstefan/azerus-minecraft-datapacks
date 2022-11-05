@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "shadowlands:chests/enchanted_books"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "shadowlands:chests/spawn_eggs"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "name": "shadowlands:chests/consumables"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "shadowlands:chests/epic_chest_roll"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.15
+        }
+      ]
+    },
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "shadowlands:chests/currency"
+        }
+      ]
+    }
+  ]
+}

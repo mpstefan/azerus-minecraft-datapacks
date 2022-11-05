@@ -1,0 +1,1 @@
+execute if entity @a[x=4510,y=30.00,z=1377.00,distance=..10] run function shadowlands:tick/events/activate_spider_lord
