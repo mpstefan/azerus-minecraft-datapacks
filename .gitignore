@@ -1,0 +1,5 @@
+# Ignore everything to exclude other datapacks
+/*
+!.gitignore
+!/shadowlands/
+!/azerus-weapons/
