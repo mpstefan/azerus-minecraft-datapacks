@@ -1,0 +1,1 @@
+item replace entity @s weapon.mainhand with minecraft:bow[minecraft:enchantments={"minecraft:punch":10}]

@@ -1,0 +1,1 @@
+item replace entity @s weapon.offhand with minecraft:tipped_arrow[minecraft:custom_name={"text":"Nightmare Arrow"},minecraft:potion_contents={potion:"minecraft:water",custom_effects:[{id:"minecraft:levitation",amplifier:1,duration:1600}]}] 64

@@ -1,0 +1,1 @@
+item replace entity @s weapon.mainhand with minecraft:bow[minecraft:custom_name={"text":"Obsidian Bow"},minecraft:enchantments={"minecraft:power":5}]

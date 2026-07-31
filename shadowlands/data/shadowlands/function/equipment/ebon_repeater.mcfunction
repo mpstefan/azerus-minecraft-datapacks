@@ -1,0 +1,1 @@
+item replace entity @s weapon.mainhand with minecraft:crossbow[minecraft:custom_name={"text":"Ebon Repeater","color":"dark_purple"},minecraft:unbreakable={},minecraft:enchantments={"minecraft:quick_charge":4}]

@@ -14,7 +14,7 @@ execute as @e[name="Burning Soul"] run data modify entity @s Target set from ent
 execute store result score players STStats if entity @a[x=4300,y=0,z=1290,dx=213,dy=54,dz=304]
 
 #Replenish Ebon Crossbow arrows
-data modify entity @e[name="Ebon Crossbowman",sort=random, limit=1] HandItems[0].tag.ChargedProjectiles set value [{"id": "tipped_arrow","Count": 1b,"tag": {"Potion": "minecraft:water","CustomPotionEffects": [{"Id": 15,"Amplifier": 1,"Duration": 200},{"Id": 20,"Duration": 100}],"display": {"Name": "\"Blinding Arrow\""}}}]
+data modify entity @e[name="Ebon Crossbowman",sort=random, limit=1] HandItems[0].tag.ChargedProjectiles set value [{"id": "tipped_arrow","Count": 1b,"tag": {"Potion": "minecraft:water","CustomPotionEffects": [{"Id": 15,"amplifier": 1,"duration": 200},{"Id": 20,"duration": 100}],"display": {"Name": "Blinding Arrow"}}}]
 data modify entity @e[name="Ebon Crossbowman",sort=random, limit=1] HandItems[0].tag.Charged set value 1b
 
 #Sealing Room

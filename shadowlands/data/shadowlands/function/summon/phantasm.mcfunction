@@ -1,2 +1,8 @@
-function shadowlands:summon/effect
-summon stray ~ ~4 ~ { "id": "stray", "CustomName": "\"Phantasm\"", "PersistenceRequired": 1, "Team": "ShadowTemple", "Health": 110.0f, "NoGravity": 1b, "Attributes": [ { "Name": "generic.max_health", "Base": 110.0f }, { "Name": "generic.follow_range", "Base": 500.0f }, { "Name": "generic.knockback_resistance", "Base": 999.0f } ], "ActiveEffects": [ { "Id": 10, "ShowParticles": 0b, "Amplifier": 1, "Duration": 2147483647 } ], "HandItems": [ { "Count": 1, "id": "bow", "tag": { "display": { "Name": "{\"text\":\"Ebon Flame Bow\",\"color\":\"dark_purple\"}" }, "Unbreakable": 1, "Enchantments": [ { "id": "power", "lvl": 6 }, { "id": "flame", "lvl": 1 } ] } }, { "id": "tipped_arrow", "Count": 99, "tag": { "Potion": "minecraft:water", "CustomPotionEffects": [ { "Id": 15, "Amplifier": 1, "Duration": 100 }, { "Id": 17, "Duration": 200 } ], "display": { "Name": "\"Phantasm Arrow\"" } } } ], "ArmorDropChances": [ 0.01f, 0.01f, 0.01f, 0.01f ], "HandDropChances": [ 0.01f, 0.0f ] }
+execute positioned ~ ~4 ~ run function shadowlands:summon/effect
+
+summon minecraft:stray ~ ~4 ~ {Tags:["shadowlands_new_summon"],CustomName:{"text":"Phantasm"},PersistenceRequired:1b,Team:"ShadowTemple",Health:110.0f,NoGravity:1b,Attributes:[{id:"minecraft:max_health",base:110.0},{id:"minecraft:follow_range",base:500.0},{id:"minecraft:knockback_resistance",base:999.0}],active_effects:[{id:"minecraft:fire_resistance",show_particles:0b,amplifier:1,duration:2147483647}],drop_chances:{mainhand:0.01f,offhand:0.0f,head:0.01f,chest:0.01f,legs:0.01f,feet:0.01f}}
+
+execute as @e[tag=shadowlands_new_summon,sort=nearest,limit=1] run function shadowlands:equipment/ebon_flame_bow
+execute as @e[tag=shadowlands_new_summon,sort=nearest,limit=1] run function shadowlands:equipment/phantasm_arrow
+
+tag @e[tag=shadowlands_new_summon] remove shadowlands_new_summon

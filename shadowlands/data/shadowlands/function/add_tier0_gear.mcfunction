@@ -1,10 +1,10 @@
-give Deathiguise netherite_boots{Enchantments:[{id:vanishing_curse,lvl:1},{id:feather_falling,lvl:4},{id:protection,lvl:4},{id:thorns,lvl:3}]} 1
-give Deathiguise netherite_helmet{Enchantments:[{id:vanishing_curse,lvl:1},{id:feather_falling,lvl:4},{id:protection,lvl:4},{id:thorns,lvl:3}]} 1
-give Deathiguise netherite_chestplate{Enchantments:[{id:vanishing_curse,lvl:1},{id:feather_falling,lvl:4},{id:protection,lvl:4},{id:thorns,lvl:3}]} 1
-give Deathiguise netherite_leggings{Enchantments:[{id:vanishing_curse,lvl:1},{id:feather_falling,lvl:4},{id:protection,lvl:4},{id:thorns,lvl:3}]} 1
-give Deathiguise netherite_sword{Enchantments:[{id:vanishing_curse,lvl:1},{id:fire_aspect,lvl:2},{id:knockback,lvl:2},{id:looting,lvl:3},{id:smite,lvl:5},{id:sweeping,lvl:3}]} 1
-give Deathiguise bow{Enchantments:[{id:vanishing_curse,lvl:1},{id:flame,lvl:1},{id:infinity,lvl:1},{id:power,lvl:5},{id:punch,lvl:2}]} 1
-give Deathiguise minecraft:cooked_beef 64
-give deathiguise minecraft:shield
-give deathiguise minecraft:honey_bottle 16
-give Deathiguise minecraft:arrow
+give @s minecraft:netherite_boots[minecraft:enchantments={"minecraft:vanishing_curse":1,"minecraft:feather_falling":4,"minecraft:protection":4,"minecraft:thorns":3}] 1
+give @s minecraft:netherite_helmet[minecraft:enchantments={"minecraft:vanishing_curse":1,"minecraft:protection":4,"minecraft:thorns":3}] 1
+give @s minecraft:netherite_chestplate[minecraft:enchantments={"minecraft:vanishing_curse":1,"minecraft:protection":4,"minecraft:thorns":3}] 1
+give @s minecraft:netherite_leggings[minecraft:enchantments={"minecraft:vanishing_curse":1,"minecraft:protection":4,"minecraft:thorns":3}] 1
+give @s minecraft:netherite_sword[minecraft:enchantments={"minecraft:vanishing_curse":1,"minecraft:fire_aspect":2,"minecraft:knockback":2,"minecraft:looting":3,"minecraft:smite":5,"minecraft:sweeping_edge":3}] 1
+give @s minecraft:bow[minecraft:enchantments={"minecraft:vanishing_curse":1,"minecraft:flame":1,"minecraft:infinity":1,"minecraft:power":5,"minecraft:punch":2}] 1
+give @s minecraft:cooked_beef 64
+give @s minecraft:shield
+give @s minecraft:honey_bottle 16
+give @s minecraft:arrow 64

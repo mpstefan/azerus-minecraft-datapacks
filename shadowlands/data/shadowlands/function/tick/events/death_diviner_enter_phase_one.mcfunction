@@ -3,7 +3,7 @@ scoreboard players set burn_zone_timer STDeathDiviner 0
 
 #Ensure float is set
 data modify entity 3abf43c2-3abc-7cd9-f2c6-763517b653f6 NoGravity set value 1
-attribute 3abf43c2-3abc-7cd9-f2c6-763517b653f6 minecraft:generic.movement_speed base set 0
+attribute 3abf43c2-3abc-7cd9-f2c6-763517b653f6 minecraft:movement_speed base set 0
 
 #Teleport Effect
 #At Old Position

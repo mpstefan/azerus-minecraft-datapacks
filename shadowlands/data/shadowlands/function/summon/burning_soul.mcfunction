@@ -1,2 +1,2 @@
 particle minecraft:soul_fire_flame ~ ~ ~ .5 .5 .5 .001 50 normal
-summon minecraft:shulker_bullet ~ ~ ~ {"CustomName": "\"Burning Soul\"","Steps":1f,"ActiveEffects":[{"Id": 12, "ShowParticles": 0b, "Duration": 2147483647}]}
+summon minecraft:shulker_bullet ~ ~ ~ {CustomName:{"text":"Burning Soul"},"Team": "ShadowTemple",Steps:1f,active_effects:[{id:"minecraft:fire_resistance",show_particles:0b,duration:2147483647}]}

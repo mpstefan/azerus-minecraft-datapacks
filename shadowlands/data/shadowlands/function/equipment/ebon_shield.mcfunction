@@ -1,0 +1,1 @@
+item replace entity @s weapon.offhand with minecraft:shield[minecraft:custom_name={"text":"Ebon Shield","color":"dark_purple"},minecraft:unbreakable={},minecraft:base_color="black",minecraft:banner_patterns=[{pattern:"minecraft:flower",color:"cyan"}]]

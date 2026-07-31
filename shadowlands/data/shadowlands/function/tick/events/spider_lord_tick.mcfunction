@@ -2,7 +2,7 @@
 execute store result bossbar spiderlord value run data get entity 7849a723-eef3-4a42-ae81-d3d19211029a Health
 
 #Replenish levitate arrows
-data modify entity 7849a723-eef3-4a42-ae81-d3d19211029a HandItems[0].tag.ChargedProjectiles set value [{"id": "tipped_arrow","Count": 1b,"tag": {"Potion": "minecraft:water","CustomPotionEffects": [{"Id": 25,"Amplifier": 1,"Duration": 200}],"display": {"Name": "\"Nightmare Arrow\""}}}]
+data modify entity 7849a723-eef3-4a42-ae81-d3d19211029a HandItems[0].tag.ChargedProjectiles set value [{"id": "tipped_arrow","Count": 1b,"tag": {"Potion": "minecraft:water","CustomPotionEffects": [{"Id": 25,"amplifier": 1,"duration": 200}],"display": {"Name": "Nightmare Arrow"}}}]
 data modify entity 7849a723-eef3-4a42-ae81-d3d19211029a HandItems[0].tag.Charged set value 1b
 
 #Boss Entity Tracking

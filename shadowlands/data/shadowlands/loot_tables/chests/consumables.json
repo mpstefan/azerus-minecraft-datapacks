@@ -18,7 +18,7 @@
               },
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{Potion:\"minecraft:strong_healing\"}"
+                "tag": "{Potion:"minecraft:strong_healing"}"
               }
             ]
           },
@@ -36,7 +36,7 @@
               },
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{CustomPotionEffects:[{Id:5,Amplifier:2,Duration:600},{Id:10,Amplifier:1,Duration:600}],CustomPotionColor:15728766,display: {\"Name\": '[{\"text\":\"Heroic Brew\",\"color\":\"dark_purple\"}]'}}"
+                "tag": "{CustomPotionEffects:[{Id:5,amplifier:2,duration:600},{Id:10,amplifier:1,duration:600}],CustomPotionColor:15728766,display: {"Name": '[{"text":"Heroic Brew","color":"dark_purple"}]'}}"
               }
             ]
           },
@@ -54,7 +54,7 @@
               },
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{Potion:\"minecraft:strong_healing\"}"
+                "tag": "{Potion:"minecraft:strong_healing"}"
               }
             ]
           },

@@ -1,0 +1,1 @@
+item replace entity @s weapon.mainhand with minecraft:bow[minecraft:custom_name=[{"text":"Fate","italic":false,"color":"dark_purple"}],minecraft:unbreakable={},minecraft:enchantments={"minecraft:infinity":1,"minecraft:power":20}]

@@ -1,0 +1,1 @@
+item replace entity @s weapon.offhand with minecraft:tipped_arrow[minecraft:custom_name={"text":"Plague Arrow"},minecraft:potion_contents={potion:"minecraft:water",custom_effects:[{id:"minecraft:slowness",amplifier:1,duration:9600},{id:"minecraft:nausea",duration:1040},{id:"minecraft:weakness",amplifier:1,duration:9600},{id:"minecraft:poison",amplifier:50,duration:9600}]}] 64

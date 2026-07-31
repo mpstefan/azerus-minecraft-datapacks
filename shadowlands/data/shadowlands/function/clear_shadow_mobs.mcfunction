@@ -5,6 +5,7 @@ kill @e[name="Nightmare Wyvern"]
 kill @e[name="Nightmare Bowman"]
 
 kill @e[name="Ebon Crossbowman"]
+kill @e[name="Ebon Marksman"]
 kill @e[name="Abyss Spider"]
 kill @e[name="Iron Spider"]
 kill @e[name="Ebon Reaper"]

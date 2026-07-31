@@ -1,0 +1,1 @@
+item replace entity @s weapon.mainhand with minecraft:netherite_sword[minecraft:custom_name={"text":"Killing Edge","color":"dark_purple"},minecraft:unbreakable={},minecraft:enchantments={"minecraft:sharpness":7},minecraft:attribute_modifiers=[{type:"minecraft:attack_damage",amount:9,operation:"add_value",slot:"mainhand",id:"bc9e0e5c-0b44-4b40-84d3-08f159acfefc"}]]
