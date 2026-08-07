@@ -7,17 +7,17 @@
         {
           "type": "minecraft:loot_table",
           "weight": 1,
-          "name": "shadowlands:chests/enchanted_books"
+          "value": "shadowlands:chests/enchanted_books"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 1,
-          "name": "shadowlands:chests/spawn_eggs"
+          "value": "shadowlands:chests/spawn_eggs"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 2,
-          "name": "shadowlands:chests/consumables"
+          "value": "shadowlands:chests/consumables"
         }
       ]
     },
@@ -26,7 +26,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "shadowlands:chests/epic_chest_roll"
+          "value": "shadowlands:chests/epic_chest_roll"
         }
       ],
       "conditions": [
@@ -41,7 +41,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "shadowlands:chests/currency"
+          "value": "shadowlands:chests/currency"
         }
       ]
     }

@@ -5,4 +5,4 @@ scoreboard players set pillar_wave_three_counter STDeathDiviner 0
 scoreboard players set pillar_wave_three_mod STDeathDiviner 0
 scoreboard players set wave_three_mod STDeathDiviner 1
 execute positioned 4397.50 12.00 1449.00 run playsound minecraft:entity.illusioner.prepare_blindness hostile @a[distance=..20] ~ ~ ~
-particle minecraft:flash 4397.50 13.00 1449.00 0 0 0 .01 2 force
+particle minecraft:flash{color:[1.0,1.0,1.0,1.0]} 4397.50 13.00 1449.00 0 0 0 .01 2 force

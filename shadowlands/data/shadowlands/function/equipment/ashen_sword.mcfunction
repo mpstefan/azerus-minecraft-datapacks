@@ -1,0 +1,1 @@
+item replace entity @s weapon.mainhand with minecraft:netherite_sword[minecraft:custom_name={"text":"Ashen Sword","color":"dark_purple"},minecraft:unbreakable={},minecraft:enchantments={"minecraft:fire_aspect":4}]

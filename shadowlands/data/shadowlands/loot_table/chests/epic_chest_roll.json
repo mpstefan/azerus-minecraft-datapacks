@@ -1,0 +1,101 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:wither_skeleton_skull",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "Reaper's Visage",
+                  "italic": false,
+                  "color": "dark_purple"
+                },
+                "minecraft:enchantments": {
+                  "protection": 5
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "525d6dee-fbc6-49e2-aa16-5fb98cc856e8",
+                    "type": "minecraft:movement_speed",
+                    "amount": 0.20,
+                    "operation": "add_multiplied_base",
+                    "slot": "head"
+                  },
+                  {
+                    "id": "830baf84-220a-419a-8440-72d446c5e31e",
+                    "type": "minecraft:attack_speed",
+                    "amount": 1.0,
+                    "operation": "add_value",
+                    "slot": "head"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Ebon Shield",
+                  "italic": false,
+                  "color": "dark_purple"
+                },
+                "minecraft:banner_patterns": [
+                  {
+                    "pattern": "minecraft:flower",
+                    "color": "cyan"
+                  }
+                ],
+                "minecraft:base_color": "black"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:netherite_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Killing Edge",
+                  "italic": false,
+                  "color": "dark_purple"
+                },
+                "minecraft:enchantments": {
+                  "sharpness": 7
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "bc9e0e5c-0b44-4b40-84d3-08f159acfefc",
+                    "type": "minecraft:attack_damage",
+                    "amount": 9,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

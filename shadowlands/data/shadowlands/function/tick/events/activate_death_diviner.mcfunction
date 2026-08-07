@@ -1,5 +1,5 @@
 #Summon Boss
-summon minecraft:illusioner 4404.00 13 1449.00 { "id": "illusioner", "CustomName": "Death Diviner", "Team": "ShadowTemple", "PersistenceRequired": 1, "Health": 1500.0f, "Rotation": [90f,0f], "Attributes": [ { "Name": "max_health", "Base": 1500.0f }, { "Name": "follow_range", "Base": 500.0f }, { "Name": "movement_speed", "Base": 0.2f }, { "Name": "knockback_resistance", "Base": 1.0f } ], "HandItems": [ { "Count": 1, "id": "bow", "tag": { "Unbreakable": 1, "display": { "Name":'[ { "text": "Fate", "italic": false, "color": "dark_purple" } ]' }, "Enchantments": [ { "id": "infinity", "lvl": 1 }, { "id": "power", "lvl": 20 } ] } }, { "id": "tipped_arrow", "Count": 99, "tag": { "Potion": "minecraft:water", "CustomPotionEffects": [ { "Id": 15, "duration": 600 } ], "display": { "Name": "Arrow of Fate" } } } ], "active_effects": [ { "Id": 10, "show_particles": 0b, "amplifier": 0, "duration": 2147483647 }, { "Id": 12, "show_particles": 0b, "duration": 2147483647 } ], "UUID": [I; 985613250, 985431257, -221874635, 397825014 ], "HandDropChances": [ 0.0f, 0.0f ] }
+execute positioned 4404.00 13 1449.00 run function shadowlands:summon/death_diviner
 
 #Summon Effect
 particle minecraft:soul_fire_flame 4404.00 13 1449.00 1 1 1 .5 1000 force
@@ -30,4 +30,4 @@ bossbar remove deathdiviner
 bossbar add deathdiviner {"text":"Death Diviner","color":"dark_purple"}
 bossbar set deathdiviner color purple
 bossbar set deathdiviner style notched_6
-execute store result bossbar deathdiviner max run data get entity 3abf43c2-3abc-7cd9-f2c6-763517b653f6 Attributes[{"Name":"minecraft:max_health"}].Base
+execute store result bossbar deathdiviner max run attribute 3abf43c2-3abc-7cd9-f2c6-763517b653f6 minecraft:max_health base get

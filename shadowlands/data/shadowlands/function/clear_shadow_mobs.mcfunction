@@ -14,7 +14,7 @@ kill @e[name="Phantasm"]
 kill @e[name="Ebon Conjurer"]
 
 kill @e[name="Void Widow"]
-kill @e[name="Spider Lord"]
+kill @e[name="Lord of Spiders"]
 kill @e[name="Grand Evoker"]
 kill @e[name="Death Diviner"]
 

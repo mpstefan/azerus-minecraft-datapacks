@@ -1,0 +1,258 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "strings":["axiom"]
+                                },
+                                "minecraft:custom_data": {
+                                    "AzerusSpellID": 1
+                                },
+                                "minecraft:custom_name": {
+                                "text": "Axiom",
+                                "italic": false,
+                                "color": "gold"
+                                },
+                                "minecraft:lore": [
+                                {
+                                    "text": "Darkness pursues you",
+                                    "italic": false,
+                                    "obfuscated": true
+                                }
+                                ],
+                                "minecraft:enchantments": {
+                                "bane_of_arthropods": 5,
+                                "knockback": 2,
+                                "sharpness": 10,
+                                "smite": 6,
+                                "sweeping_edge": 3
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                    "id": "927c4868-ebf9-4c94-8ab6-2c0b1b1130c6",
+                                    "type": "minecraft:attack_damage",
+                                    "amount": 9,
+                                    "operation": "add_value",
+                                    "slot": "mainhand"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:netherite_sword",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:unbreakable": {},
+                                "minecraft:custom_name": {
+                                "text": "Killing Edge",
+                                "italic": false,
+                                "color": "dark_purple"
+                                },
+                                "minecraft:enchantments": {
+                                "sharpness": 7
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                    "id": "bc9e0e5c-0b44-4b40-84d3-08f159acfefc",
+                                    "type": "minecraft:attack_damage",
+                                    "amount": 9,
+                                    "operation": "add_value",
+                                    "slot": "mainhand"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:crossbow",
+                    "functions": [
+                        {
+                        "function": "minecraft:set_components",
+                        "components": {
+                            "minecraft:unbreakable": {},
+                            "minecraft:custom_name": {
+                            "text": "Ebon Repeater",
+                            "italic": false,
+                            "color": "dark_purple"
+                            },
+                            "minecraft:enchantments": {
+                            "quick_charge": 4
+                            }
+                        }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:netherite_axe",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:unbreakable": {},
+                                "minecraft:custom_name": {
+                                "text": "Whirlwind Axe",
+                                "italic": false,
+                                "color": "dark_purple"
+                                },
+                                "minecraft:enchantments": {
+                                "knockback": 3
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                    "id": "f034116b-7f28-45d3-9041-7ac4e404d809",
+                                    "type": "minecraft:attack_damage",
+                                    "amount": 11,
+                                    "operation": "add_value",
+                                    "slot": "mainhand"
+                                    },
+                                    {
+                                    "id": "b2fff160-bfe3-48be-be1a-4c99a4d21ca3",
+                                    "type": "minecraft:attack_speed",
+                                    "amount": -3,
+                                    "operation": "add_value",
+                                    "slot": "mainhand"
+                                    }
+                                ]
+                                
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:shield",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:unbreakable": {},
+                                "minecraft:custom_name": {
+                                "text": "Ebon Shield",
+                                "italic": false,
+                                "color": "dark_purple"
+                                },
+                                "minecraft:banner_patterns": [
+                                {
+                                    "pattern": "minecraft:flower",
+                                    "color": "cyan"
+                                }
+                                ],
+                                "minecraft:base_color": "black"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:unbreakable": {},
+                                "minecraft:custom_name": {
+                                    "text": "Ebon Flame Bow",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                },
+                                "minecraft:enchantments": {
+                                    "flame": 1,
+                                    "power": 6
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 2,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_name": {
+                                "text": "Potion of Black Omen",
+                                "color": "dark_purple"
+                                },
+                                "minecraft:potion_contents": {
+                                "custom_color": 0,
+                                "custom_effects": [
+                                    {
+                                    "id": "minecraft:raid_omen",
+                                    "amplifier": 5,
+                                    "duration": 2147483647
+                                    }
+                                ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:enchanted_golden_apple",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:end_portal_frame",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

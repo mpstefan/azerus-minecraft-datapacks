@@ -1,1 +1,1 @@
-particle minecraft:flash ~ ~ ~ 1 1 1 1 500 force
+particle minecraft:flash{color:[1.0,1.0,1.0,1.0]} ~ ~ ~ 1 1 1 1 500 force

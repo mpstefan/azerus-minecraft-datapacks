@@ -1,2 +1,2 @@
 function shadowlands:summon/effect
-summon minecraft:cave_spider ~ ~ ~ {CustomName:{"text":"Iron Spider"},Team:"ShadowTemple",Health:30.0f,Attributes:[{id:"minecraft:max_health",base:30.0},{id:"minecraft:follow_range",base:500.0},{id:"minecraft:attack_damage",base:10.0}]}
+summon minecraft:cave_spider ~ ~ ~ {CustomName:{"text":"Iron Spider"},Team:"Shadow Temple",Health:30.0f,attributes:[{id:"minecraft:max_health",base:30.0},{id:"minecraft:follow_range",base:500.0},{id:"minecraft:attack_damage",base:10.0}]}
